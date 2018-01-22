@@ -1,0 +1,9 @@
+
+version: 0.0
+Resources:
+  - searchPricelineHotels:
+      Type: AWS::Lambda::Function
+      Properties:
+        Name: "searchPricelineHotels"
+        CurrentVersion: "59"
+        TargetVersion: "60"
